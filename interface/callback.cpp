@@ -10,8 +10,13 @@ extern uint8_t rx_buf[18];
 extern RC rc;
 void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 {
-    if (huart == &huart3) {
-        rc.rxCallback();
+    if(huart == &huart3)
+    {
+       for(int i=0;i<18;i++)
+       {
+           rc.rx_data_[i] = rx_buf[i];
+       }
+       rc.handle();
     }
     /*
     if (cv_comm.uartCheck(huart)) {
@@ -24,4 +29,6 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
         serial_tool.uartRxCallback();
     }
     */
+    HAL_UART_Receive_IT(&huart3,rx_buf,18); /* USER CODE END 2 */
+
 }

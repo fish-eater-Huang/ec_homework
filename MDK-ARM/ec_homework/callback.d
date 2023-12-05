@@ -1,33 +1,36 @@
-ec_homework\callback.o: ..\interface\callback.cpp
-ec_homework\callback.o: ..\interface\callback.h
-ec_homework\callback.o: ../Core/Inc/usart.h
-ec_homework\callback.o: ../Core/Inc/main.h
-ec_homework\callback.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
-ec_homework\callback.o: ../Core/Inc/stm32f4xx_hal_conf.h
-ec_homework\callback.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
-ec_homework\callback.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
-ec_homework\callback.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
-ec_homework\callback.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
-ec_homework\callback.o: ../Drivers/CMSIS/Include/core_cm4.h
-ec_homework\callback.o: D:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
-ec_homework\callback.o: ../Drivers/CMSIS/Include/cmsis_version.h
-ec_homework\callback.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
-ec_homework\callback.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
-ec_homework\callback.o: ../Drivers/CMSIS/Include/mpu_armv7.h
-ec_homework\callback.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
-ec_homework\callback.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
-ec_homework\callback.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-ec_homework\callback.o: D:\Keil\ARM\ARMCC\Bin\..\include\stddef.h
-ec_homework\callback.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
-ec_homework\callback.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
-ec_homework\callback.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
-ec_homework\callback.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
-ec_homework\callback.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
-ec_homework\callback.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
-ec_homework\callback.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
-ec_homework\callback.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
-ec_homework\callback.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
-ec_homework\callback.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
-ec_homework\callback.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
-ec_homework\callback.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
-ec_homework\callback.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+ec_homework/callback.o: ..\interface\callback.cpp ..\interface\callback.h \
+  ..\Core\Inc\usart.h ..\Core\Inc\main.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h \
+  ..\Core\Inc\stm32f4xx_hal_conf.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h \
+  ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h \
+  ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f407xx.h \
+  ..\Drivers\CMSIS\Include\core_cm4.h \
+  D:\Keil\ARM\ARMCLANG\Bin\..\include\libcxx\stdint.h \
+  D:\Keil\ARM\ARMCLANG\Bin\..\include\libcxx\__config \
+  D:\Keil\ARM\ARMCLANG\Bin\..\include\stdint.h \
+  ..\Drivers\CMSIS\Include\cmsis_version.h \
+  ..\Drivers\CMSIS\Include\cmsis_compiler.h \
+  ..\Drivers\CMSIS\Include\cmsis_armclang.h \
+  D:\Keil\ARM\ARMCLANG\Bin\..\include\arm_compat.h \
+  D:\Keil\ARM\ARMCLANG\Bin\..\include\arm_acle.h \
+  ..\Drivers\CMSIS\Include\mpu_armv7.h \
+  ..\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h \
+  D:\Keil\ARM\ARMCLANG\Bin\..\include\libcxx\stddef.h \
+  D:\Keil\ARM\ARMCLANG\Bin\..\include\stddef.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_exti.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_dma_ex.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h \
+  ..\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_uart.h \
+  ..\interface\..\remote\remote.h

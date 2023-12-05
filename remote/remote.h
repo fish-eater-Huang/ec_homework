@@ -25,7 +25,8 @@ public:
     void rxCallback();
 
 public:
-
+    //接收的数据
+    uint8_t rx_buf_[RC_RX_BUF_SIZE], rx_data_[RC_FRAME_LEN];
     // remote channel 遥控器通道
     struct RCChannel {
         int16_t r_row;
@@ -50,7 +51,7 @@ public:
 
 private:
     UART_HandleTypeDef* huart_;
-    uint8_t rx_buf_[RC_RX_BUF_SIZE], rx_data_[RC_FRAME_LEN];
+
     volatile uint8_t rx_len_;
 
     struct RCRaw {
