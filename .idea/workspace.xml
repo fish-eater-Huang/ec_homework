@@ -20,103 +20,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32494fab-22c9-4105-9b0b-7863d236820c" name="Changes" comment="添加了remote.cpp/.h">
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/DebugConfig/ec_homework_STM32F407IGHx.dbgconf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/EventRecorderStub.scvd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/RTE/_ec_homework/RTE_Components.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework.uvguix.15795" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/ExtDll.iex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/callback.crf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/callback.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/callback.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/dma.crf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/dma.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/dma.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/ec_homework.axf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/ec_homework.build_log.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/ec_homework.hex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/ec_homework.htm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/ec_homework.lnp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/ec_homework.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/ec_homework.sct" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/ec_homework_ec_homework.dep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/gpio.crf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/gpio.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/gpio.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/main.crf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/main.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/main.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/startup_stm32f407xx.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/startup_stm32f407xx.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal.crf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_cortex.crf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_cortex.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_cortex.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_dma.crf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_dma.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_dma.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_dma_ex.crf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_dma_ex.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_dma_ex.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_exti.crf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_exti.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_exti.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_flash.crf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_flash.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_flash.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_flash_ex.crf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_flash_ex.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_flash_ex.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_flash_ramfunc.crf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_flash_ramfunc.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_flash_ramfunc.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_gpio.crf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_gpio.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_gpio.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_msp.crf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_msp.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_msp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_pwr.crf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_pwr.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_pwr.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_pwr_ex.crf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_pwr_ex.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_pwr_ex.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_rcc.crf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_rcc.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_rcc.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_rcc_ex.crf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_rcc_ex.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_rcc_ex.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_tim.crf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_tim.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_tim.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_tim_ex.crf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_tim_ex.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_tim_ex.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_uart.crf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_uart.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_hal_uart.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_it.crf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_it.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/stm32f4xx_it.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/system_stm32f4xx.crf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/system_stm32f4xx.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/system_stm32f4xx.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/usart.crf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/usart.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/usart.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/startup_stm32f407xx.lst" afterDir="false" />
+    <list default="true" id="32494fab-22c9-4105-9b0b-7863d236820c" name="Changes" comment="定义了RC类">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_homework.uvoptx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework.uvoptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_homework.uvprojx" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework.uvprojx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface/callback.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/interface/callback.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/callback.h" beforeDir="false" afterPath="$PROJECT_DIR$/interface/callback.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remote/remote.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/remote/remote.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/remote/remote.h" beforeDir="false" afterPath="$PROJECT_DIR$/remote/remote.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -212,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701776193527</updated>
-      <workItem from="1701776220763" duration="5273000" />
+      <workItem from="1701776220763" duration="7357000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -254,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701781741850</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="定义了RC类">
+      <option name="closed" value="true" />
+      <created>1701782512709</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701782512709</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,6 +211,7 @@
     <MESSAGE value="定义了rx_buf缓冲空间" />
     <MESSAGE value="添加了callback.cpp/.h" />
     <MESSAGE value="添加了remote.cpp/.h" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加了remote.cpp/.h" />
+    <MESSAGE value="定义了RC类" />
+    <option name="LAST_COMMIT_MESSAGE" value="定义了RC类" />
   </component>
 </project>

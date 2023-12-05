@@ -18,7 +18,11 @@ public:
     } RCSwitchState_e;
 
 public:
-
+    RC(UART_HandleTypeDef* huart = nullptr);
+    void init();
+    void handle();
+    void reset();
+    void rxCallback();
 
 public:
 
