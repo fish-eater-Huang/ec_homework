@@ -29,10 +29,10 @@ public:
     uint8_t rx_buf_[RC_RX_BUF_SIZE], rx_data_[RC_FRAME_LEN];
     // remote channel 遥控器通道
     struct RCChannel {
-        int16_t r_row;
-        int16_t r_col;
-        int16_t l_row;
-        int16_t l_col;
+        float r_row;
+        float r_col;
+        float l_row;
+        float l_col;
         int16_t dial_wheel;
     } channel_;
     // remote switch 遥控器拨挡

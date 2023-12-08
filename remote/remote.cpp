@@ -60,10 +60,10 @@ void RC::handle(void) {
     mouse_.press_r = (rx_data_[13] != 0);              // Mouse right pressed
     rc_raw_.ch[4] = rx_data_[16] | rx_data_[17] << 8;  // Dial wheel
 
-    channel_.r_row = rc_raw_.ch[0] - rc_ch_offset;
-    channel_.r_col = rc_raw_.ch[1] - rc_ch_offset;
-    channel_.l_row = rc_raw_.ch[2] - rc_ch_offset;
-    channel_.l_col = rc_raw_.ch[3] - rc_ch_offset;
+    channel_.r_row = float(rc_raw_.ch[0] - rc_ch_offset)/660;
+    channel_.r_col = float(rc_raw_.ch[1] - rc_ch_offset)/660;
+    channel_.l_row = float(rc_raw_.ch[2] - rc_ch_offset)/660;
+    channel_.l_col = float(rc_raw_.ch[3] - rc_ch_offset)/660;
     channel_.dial_wheel = rc_raw_.ch[4] - rc_ch_offset;
     if (rc_raw_.s[0] == 1) {
         switch_.r = UP;
