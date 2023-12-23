@@ -20,23 +20,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32494fab-22c9-4105-9b0b-7863d236820c" name="Changes" comment="使用IT进行数据接受，在回调函数赋值给rc的rx_data_,然后进行解码（未进行归一化）">
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/remote.d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/remote.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_homework.uvguix.15795" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework.uvguix.15795" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_homework/ec_homework.axf" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/ec_homework.axf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_homework/ec_homework.build_log.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/ec_homework.build_log.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_homework/ec_homework.hex" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/ec_homework.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_homework/ec_homework.htm" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/ec_homework.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_homework/ec_homework.map" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/ec_homework.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_homework/ec_homework_ec_homework.dep" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/ec_homework_ec_homework.dep" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_homework/main.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/main.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MDK-ARM/ec_homework/usart.o" beforeDir="false" afterPath="$PROJECT_DIR$/MDK-ARM/ec_homework/usart.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remote/remote.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/remote/remote.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remote/remote.h" beforeDir="false" afterPath="$PROJECT_DIR$/remote/remote.h" afterDir="false" />
-    </list>
+    <list default="true" id="32494fab-22c9-4105-9b0b-7863d236820c" name="Changes" comment="对遥感数据进行了归一化处理" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +79,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/15795/Desktop/RM/ec_homework&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -107,11 +91,6 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ec_homework.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ec_homework" TARGET_NAME="ec_homework.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ec_homework" RUN_TARGET_NAME="ec_homework.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
