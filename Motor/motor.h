@@ -34,10 +34,12 @@ public:
     struct MotorInfo {
         Type type;
         float ratio; // 减速比
+        float max_intensity;  // 控制信号限幅
     } info_;
     Mode mode_;
     ControlMethod method_;
     int16_t intensity_; // 控制量
+    float  intensity_float_;
     float target_angle, target_speed; // 期望角度、 速度
     struct MotorData {
         float angle; // 减速后的输出端角度
