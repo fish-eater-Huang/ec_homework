@@ -7,6 +7,7 @@
 
 class PID {
 public:
+    PID(void) : PID(0, 0, 0, 0, 0) {}
     PID(float kp, float ki, float kd, float i_max, float out_max);
     float Calculate(float ref, float fdb);
 public:
