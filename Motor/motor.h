@@ -9,22 +9,22 @@
 
 class Motor {
 public:
-    enum Type {
+    typedef enum Type {
         M3508,
         M2006,
         GM6020,
-    };
-    enum ControlMethod {
+    }Type_e;
+    typedef enum ControlMethod {
         POSITION_SPEED, // 位置， 速度双环 PID 控制
         SPEED, // 速度单环 PID 控制
-    };
+    }ControlMethod_e;
     enum Mode {
         POWER_OFF, // 断电， 控制量置零
         STOP, // 将目标速度置零， 计算得出控制量， 使得电机停转
         WORKING, // 电机正常工作
     };
 public:
-    Motor(const Type& type, const float& ratio, const ControlMethod& method,
+    Motor(const Type_e& type, const float& ratio, const ControlMethod_e& method,
           const PID& ppid, const PID& spid);
     void Reset(void); // 重置电机所有状态
     void Handle(void); // 根据当前 mode_ 计算控制量
