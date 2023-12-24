@@ -5,4 +5,5 @@
 #ifndef EC_HOMEWORK_CAN_MONITOR_H
 #define EC_HOMEWORK_CAN_MONITOR_H
 
+void canFilterInit(void);
 #endif //EC_HOMEWORK_CAN_MONITOR_H
