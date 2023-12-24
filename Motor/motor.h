@@ -47,6 +47,7 @@ public:
     struct MotorData {
         float angle; // 减速后的输出端角度
         float ecd_angle; // 编码器角度float last_ecd_angle;
+        float last_ecd_angle;
         float rotate_speed; // 减速后的输出端转速
         float current; // 转矩电流
         float temp; // 电机温度
