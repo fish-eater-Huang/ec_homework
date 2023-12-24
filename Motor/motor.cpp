@@ -44,6 +44,11 @@ void Motor::SetSpeed(const float &target_speed)
     this->target_speed = target_speed;
 }
 
+void Motor::CANIdConfig(const uint8_t& can_channel, const uint8_t& id) {
+    info_.can_channel = can_channel;
+    info_.id = id;
+}
+
 void Motor::Handle() {
 
 

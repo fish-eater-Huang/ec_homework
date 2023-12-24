@@ -30,11 +30,14 @@ public:
     void Handle(void); // 根据当前 mode_ 计算控制量
     void SetAngle(const float& target_angle); // 设置目标角度
     void SetSpeed(const float& target_speed); // 设置目标速度
+    void CANIdConfig(const uint8_t& can_channel, const uint8_t& id);
 public:
     struct MotorInfo {
         Type type;
         float ratio; // 减速比
         float max_intensity;  // 控制信号限幅
+        uint8_t can_channel;
+        uint8_t id;
     } info_;
     Mode mode_;
     ControlMethod method_;
