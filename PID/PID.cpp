@@ -33,3 +33,13 @@ float PID::Calculate(float ref, float fdb)
 
     return output_;
 }
+
+void PID::reset(void) {
+    err_ = 0;
+    err_sum_ = 0;
+    last_err_ = 0;
+    p_out_ = 0;
+    i_out_ = 0;
+    d_out_ = 0;
+
+}
