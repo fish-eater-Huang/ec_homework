@@ -5,6 +5,7 @@
 #include "motor_monitor.h"
 #include  "../PID/pid.h"
 #include "../Motor/motor.h"
+#include "../Motor/Driver/dji_motor_driver.h"
 // Motor parameter config
 // 电机参数配置
 
@@ -45,3 +46,41 @@ Motor STIR(Motor::M2006, 36, Motor::POSITION_SPEED,  // type, ratio, method
 Motor m1(Motor::M3508, 1, Motor::POSITION_SPEED,  // type, ratio, method
          PID(50, 0.02, 50, 200, 36000),           // ppid
          PID(20, 0.02, 50, 200, 16384));          // spid
+
+// DJI Motor id config, M3508/M2006: 1~8, GM6020: 5~11
+// DJI电机ID配置，M3508，M2006可配置范围为1~8，GM6020可配置范围为5~11
+Motor* can1_dji_motor[11] = {
+        &FRICL,   // id:1
+        &FRICR,   // id:2
+        nullptr,  // id:3
+        nullptr,  // id:4
+        &STIR,    // id:5
+        &GMP,     // id:6
+        nullptr,  // id:7
+        &m1,      // id:8
+        nullptr,  // id:9
+        nullptr,  // id:10
+        nullptr   // id:11
+};
+Motor* can2_dji_motor[11] = {
+        &CMFL,    // id:1
+        &CMFR,    // id:2
+        &CMBL,    // id:3
+        &CMBR,    // id:4
+        &GMY,     // id:5
+        nullptr,  // id:6
+        nullptr,  // id:7
+        nullptr,  // id:8
+        nullptr,  // id:9
+        nullptr,  // id:10
+        nullptr   // id:11
+};
+
+DJIMotorDriver dji_motor_driver(can1_dji_motor, can2_dji_motor);
+
+void motorsCanRxMsgHandle(CAN_HandleTypeDef* hcan,
+                          CAN_RxHeaderTypeDef rx_header, uint8_t* rx_data) {
+    if (dji_motor_driver.canRxMsgCheck(hcan, rx_header)) {
+        dji_motor_driver.canRxMsgCallback(hcan, rx_header, rx_data);
+    }
+}

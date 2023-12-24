@@ -5,6 +5,7 @@
 #include "callback.h"
 #include "usart.h"
 #include "../remote/remote.h"
+#include "../app/motor_monitor.h"
 
 extern uint8_t rx_buf[18];
 extern RC rc;
@@ -31,4 +32,14 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
     */
     HAL_UART_Receive_IT(&huart3,rx_buf,18); /* USER CODE END 2 */
 
+}
+
+// CAN receive callback
+// CAN接收回调
+void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef* hcan) {
+    CAN_RxHeaderTypeDef rx_header;
+    uint8_t rx_data[8];
+    HAL_CAN_GetRxMessage(hcan, CAN_RX_FIFO0, &rx_header, rx_data);
+
+    motorsCanRxMsgHandle(hcan, rx_header, rx_data);
 }

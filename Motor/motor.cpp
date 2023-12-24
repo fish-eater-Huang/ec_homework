@@ -95,4 +95,5 @@ void Motor::Handle() {
         intensity_float_ = math::limit(intensity_float_ * math::sign(info_.ratio),
                                        -info_.max_intensity, info_.max_intensity);
 
+        intensity_ = intensity_float_;
     }
