@@ -16,6 +16,12 @@ namespace math {
     float limitMax(float val, const float &max);
 
     float sign(const float &val);
+    // Angle normalization(rad->[-PI,PI], deg->[-180,180])
+    // 角度规范化(rad->[-PI,PI], deg->[-180,180])
+    float radNormalizePI(const float& angle);
+    float degNormalize180(const float& angle);
+    // Voop limitation 循环限幅
+    float loopLimit(float val, const float& min, const float& max);
 }
 
 #endif //EC_HOMEWORK_MATH_H
